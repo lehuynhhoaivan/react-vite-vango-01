@@ -8,7 +8,11 @@ import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
-  function myFunction() {
+  // function myFunction() {
+  //   console.log('Hello Vango')
+  // }
+
+  const myFunction = () => {
     console.log('Hello Vango')
   }
   myFunction();
