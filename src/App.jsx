@@ -4,15 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import styles from './components/css/MyComponent.module.css'
+import MyComponent from './components/learn/MyComponent'
+import SecondComponent from './components/learn/SecondComponent'
 
-// () => { }
-// component = html + css + js
-const MyComponent = () => {
-  return (
-    <h4 className={styles.textName}>VANGO</h4>
-  )
-}
+
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -33,6 +28,8 @@ const App = () => {
       </div>
 
       <MyComponent />
+
+      <SecondComponent />
 
       <div>
         <Footer />
