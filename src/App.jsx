@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import MyComponent from './components/learn/MyComponent'
 import SecondComponent from './components/learn/SecondComponent'
+import { FakeComponent, ThirdComponent } from './components/learn/ThirdComponent'
 
 
 
@@ -30,6 +31,10 @@ const App = () => {
       <MyComponent />
 
       <SecondComponent />
+
+      <ThirdComponent />
+
+      <FakeComponent />
 
       <div>
         <Footer />
