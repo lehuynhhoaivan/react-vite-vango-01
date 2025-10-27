@@ -22,10 +22,21 @@ const App = () => {
   }
   myFunction();
 
+  const vango = 'Vango';
+  const age = 25;
+  const data = {
+    city: 'New York',
+    country: 'USA'
+  }
+
   return (
     <>
       <div>
-        <Header />
+        <Header
+          name={vango}
+          age={age}
+          data={data}
+        />
       </div>
 
       <MyComponent />
