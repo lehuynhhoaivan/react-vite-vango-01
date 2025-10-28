@@ -29,6 +29,10 @@ const App = () => {
     country: 'USA'
   }
 
+  const addNewTodo = () => {
+    alert('Add new todo' )
+  }
+
   return (
     <>
       <div>
@@ -36,6 +40,7 @@ const App = () => {
           name={vango}
           age={age}
           data={data}
+          addNewTodo={addNewTodo}
         />
       </div>
 

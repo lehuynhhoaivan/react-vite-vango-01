@@ -1,5 +1,7 @@
 // Nên dùng
-function Header({name}) {
+function Header({name, addNewTodo}) {
+    console.log('Header name:', addNewTodo);
+    addNewTodo();
     return (
             <>
                 <h1>Component Header</h1>
