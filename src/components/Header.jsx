@@ -1,7 +1,7 @@
 // Nên dùng
 function Header({name, addNewTodo}) {
     console.log('Header name:', addNewTodo);
-    addNewTodo();
+    addNewTodo('Learn ReactJS');
     return (
             <>
                 <h1>Component Header</h1>

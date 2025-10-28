@@ -29,8 +29,8 @@ const App = () => {
     country: 'USA'
   }
 
-  const addNewTodo = () => {
-    alert('Add new todo' )
+  const addNewTodo = (name) => {
+    alert(`Add new todo ${name}`)
   }
 
   return (
